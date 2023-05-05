@@ -1,0 +1,13 @@
+.xapp-widget-6.lg-background{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+@media (max-width: 768px) {
+    .xapp-widget-6.lg-background{
+        background-position: left center;
+    }
+}
+.bg-container{
+    background-color: rgba(255, 255, 255, 0.6);
+}

@@ -1,0 +1,9 @@
+.active_lang{
+}
+.inactive_lang{
+    font-weight: bold;
+    color: #0856c9;
+}
+.inactive_lang:hover{
+    cursor: pointer;
+}

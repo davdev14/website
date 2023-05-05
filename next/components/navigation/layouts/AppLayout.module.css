@@ -1,0 +1,9 @@
+.page_container {
+  max-width: 1600px;
+  margin: 0 auto;
+}
+.main_container {
+  min-height: 50vh;
+  box-shadow: 4px 0 2px -2px #dfdfdf, -4px 0 2px -2px #dfdfdf;
+  background-color: #fff;
+}

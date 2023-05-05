@@ -1,0 +1,25 @@
+.card {
+    text-align: center;
+}
+
+.card_img_top img {
+    max-width: 10em;
+    height: 10em;
+    border-radius: 50%;
+}
+
+.image_wrapper {
+    border: solid 1px #ccc;
+    position: relative;
+    width: 10em;
+    height: 10em;
+    border-radius: 50%;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.card_text {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

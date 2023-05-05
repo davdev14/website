@@ -1,0 +1,11 @@
+.heading_text {
+    font-size: 1.7em;
+}
+
+.heading_header {
+    counter-increment: count;
+    color: #dd5b0b;
+    font-size: 3em;
+    text-transform: uppercase;
+    font-weight: bold;
+}

@@ -1,0 +1,12 @@
+.services_overview{
+    padding: 2em;
+}
+@media (max-width: 768px) {
+    .services_overview{
+        padding: 0 1em;
+    }
+    .center_small {
+        text-align:center !important;
+        justify-content: center;
+    }
+}

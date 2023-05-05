@@ -1,0 +1,24 @@
+.scroll_spy_list{
+    text-align: left;
+}
+.scroll_spy_elm{
+    list-style: none;
+
+}
+.scroll_spy_elm .nav-link{
+    color: #212529;
+    padding: 0.1rem 1rem;
+}
+.scroll_spy_elm .nav-link.active{
+    font-weight: bold;
+    color: #1266f1;
+    border-left: solid 0.2rem #1266f1;
+    padding: 0.1rem 0.8rem;
+}
+
+.scroll_spy_elm .nav-link.active{
+    font-weight: bold;
+    color: #dd5b0b;
+    border-left: solid 0.2rem #1266f1;
+    padding: 0.1rem 0.8rem;
+}

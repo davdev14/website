@@ -1,0 +1,46 @@
+.x-main-container{
+    padding: 1em;
+    background-color:#ddd;
+    background-repeat: no-repeat;
+    background-position: center; background-size: cover;
+}
+.x-background-img{
+    background-color:#228; background-position: left center;
+    background-repeat: no-repeat; background-position: center; background-size: cover;
+}
+.x-main-content{
+    background-color: #fff;
+}
+@media (max-width: 768px) {
+    .x-main-content{
+        margin-top: 1em;
+        padding: 2em;
+    }
+    .x-background-img{
+        height: 13em;
+    }
+}
+@media (min-width: 768px) {
+    .x-main-container{
+        position: relative;
+        height: 26em;
+        padding: 1em;
+    }
+    .x-background-img{
+        height: 23em;
+        position: absolute;
+        left: 10%;
+        top: 1em;
+        width: 60%;
+        max-width: 50em;
+    }
+    .x-main-content{
+        position: absolute;
+        right: 10%;
+        bottom: 1em;
+        width: 50%;
+        height: 23em;
+        min-width: 30em;
+        padding: 5em 3em;
+    }
+}

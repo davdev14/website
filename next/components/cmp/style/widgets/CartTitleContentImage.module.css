@@ -1,0 +1,20 @@
+.widget_card{
+    border: none;
+    border-bottom: solid 3px #024b7e;
+    border-radius: 0;
+    box-shadow: 1px 1px 5px #ccc;
+    text-align: left;
+    padding: 2em 1em;
+}
+.img_container{
+    height: 10em;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border: solid 1px #efefef;
+    position: relative;
+}
+.widget_card .card-title{
+    font-weight: bold;
+}

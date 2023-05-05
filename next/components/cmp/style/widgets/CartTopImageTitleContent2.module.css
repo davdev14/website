@@ -1,0 +1,46 @@
+.widget_wrapper {
+    border: none;
+    border-radius: 0;
+    text-align: left;
+    padding: 1em 0;
+}
+
+.widget a, .widget a:hover, .widget a:visited, .widget a {
+    color: #000;
+    margin: 0;
+    padding: 0;
+}
+
+.widget a:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+}
+
+.nav_link.no_underline:hover {
+    text-decoration: none;
+}
+
+.widget .img_container{
+    height: 15em;
+    min-width: 10em;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    border: solid 1px #ccc;
+    overflow: hidden;
+}
+.widget .widget_title{
+    padding: 0.5em 0;
+    margin: 0;
+}
+
+@media only screen and (min-width: 768px){
+    .widget .widget_title{
+        min-height: 3.5em;
+    }
+    .widget_wrapper .card_text{
+        min-height: 6em;
+    }
+}

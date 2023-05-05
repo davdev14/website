@@ -1,0 +1,14 @@
+@media (max-width: 992px) {
+    .contact_form_border{
+        margin: 0 1em;
+        border-bottom: solid 1px #bbb;
+        padding-bottom: 1em;
+    }
+}
+
+@media (min-width: 992px) {
+    .contact_form_border{
+        margin: 1em 0;
+        border-right: solid 1px #bbb;
+    }
+}

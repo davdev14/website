@@ -1,0 +1,20 @@
+.author_container{
+    padding: 0;
+        /* border: solid 1px #d3d8e0; */
+    text-align: center;
+    font-size: 0.8em;
+}
+.img_wrapper{
+    margin: 1em;
+    display: inline-block;
+    width: 5em;
+    height: 5.1em;
+    border: solid 1px #888;
+    border-radius: 5em;
+}
+
+.img_wrapper img{
+    display: inline-block;
+    border-radius: 5em;
+    display: inline-block;
+}

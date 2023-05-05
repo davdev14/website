@@ -1,0 +1,29 @@
+.widget-card{
+    border: none;
+    border-bottom: solid 3px #024b7e;
+    border-radius: 0;
+    box-shadow: 1px 1px 5px #ccc;
+    text-align: left;
+    padding: 0em;
+}
+.widget-card .img-container{
+    height: 10em;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border: solid 1px #efefef;
+}
+.widget-card .card-title{
+    font-weight: bold;
+}
+.widget-card .nav-link{
+    padding: 0.5em;
+    border: solid 2px #888;
+    color: #555;
+    font-weight: bold;
+}
+.widget-card .nav-link:hover{
+    border: solid 2px #024b7e;
+    color: #024b7e;
+}

@@ -1,0 +1,58 @@
+
+.dl_blurbs {
+  display: grid;
+}
+@media (min-width: 768px) {
+  .dl_blurbs {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2vw;
+  }
+}
+
+/* LIST */
+.widget dl {
+  counter-reset: count;
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.04) 20%, rgba(255, 255, 255, 0) 0%);
+  padding-left: 4vw;
+  padding-right: 4vw;
+  margin: 0;
+}
+@media (min-width: 768px) {
+  .widget dl {
+    padding-left: 2vw;
+  }
+}
+@media (min-width: 1024px) {
+  .widget dl {
+    padding-top: 3vw;
+    padding-bottom: 3vw;
+  }
+}
+
+.widget dl + dl {
+  counter-reset: counter;
+}
+
+.widget dt {
+  counter-increment: count;
+  color: #4f6d7a;
+  font-size: 4vw;
+  text-transform: uppercase;
+}
+@media (min-width: 1024px) {
+  .widget dt {
+    font-size: 2.5em;
+  }
+}
+
+.widget dt::before {
+  content: counter(count, decimal-leading-zero) ".";
+  color: #5ea5b8;
+  margin-left: -1vw;
+  padding-right: 12px;
+}
+
+.widget dd {
+  margin-left: 5vw;
+  margin-bottom: 2vh;
+}

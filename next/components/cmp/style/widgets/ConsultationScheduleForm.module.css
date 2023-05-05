@@ -1,0 +1,12 @@
+.consultation_form{
+    margin: 1em;
+    box-shadow: 4px 0 2px -2px #dfdfdf, -4px 0 2px -2px #dfdfdf;
+    padding: 2em;
+    border: solid 1px #dfdfdf;
+}
+@media (max-width: 768px) {
+    .consultation_form{
+        margin: 0.1em;
+        padding: 1em;
+    }
+}

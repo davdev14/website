@@ -1,0 +1,16 @@
+.review_card{
+    opacity: 0.8;
+    box-shadow: -5px -5px 10px rgba(48, 44, 67, 0.2);
+    border: solid 1px #eee;
+}
+.review_name, .review_company{
+    text-transform: uppercase;
+}
+.review_name{
+    font-size: 1.2em;
+    font-weight: bold;
+}
+.review_company{
+    font-size: 0.9em;
+    opacity: 0.8;
+}
